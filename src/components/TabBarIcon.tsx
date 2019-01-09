@@ -1,10 +1,20 @@
-import React from 'react';
-import { Icon } from 'expo';
+import { Icon } from "expo";
+import * as React from "react";
 
-import Colors from '../constants/Colors';
+import Colors from "../constants/Colors";
 
-export default class TabBarIcon extends React.Component {
-  render() {
+interface Props {
+  name: string;
+  focused: boolean;
+}
+
+export default class TabBarIcon extends React.Component<Props, {}> {
+
+  constructor(props: Props) {
+    super(props);
+  }
+
+  public render() {
     return (
       <Icon.Ionicons
         name={this.props.name}
