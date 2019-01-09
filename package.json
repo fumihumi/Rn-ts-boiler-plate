@@ -19,6 +19,10 @@
     "tslib": "1.9.3"
   },
   "devDependencies": {
+    "@types/expo": "^31.0.7",
+    "@types/expo__vector-icons": "6.2.3",
+    "@types/react": "^16.7.18",
+    "@types/react-native": "^0.57.26",
     "babel-preset-expo": "^5.0.0",
     "jest-expo": "^32.0.0",
     "typescript": "3.2.2"
