@@ -11,6 +11,7 @@ import {
 } from "react-native";
 
 import { MonoText } from "../components/StyledText";
+import tmpStyle from "./HomeScreen.scss";
 
 export default class HomeScreen extends React.Component {
   public static navigationOptions = {
@@ -73,7 +74,7 @@ export default class HomeScreen extends React.Component {
       );
 
       return (
-        <Text style={styles.developmentModeText}>
+        <Text style={tmpStyle.tmpDevelopmentModeText}>
           Development mode is enabled, your app will be slower but you can use useful development
           tools. {learnMoreButton}
         </Text>
